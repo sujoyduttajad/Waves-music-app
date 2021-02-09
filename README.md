@@ -8,7 +8,7 @@ The Waves music app is a music player with a range of songs to play build with r
 <img src="./waves_ipad.png" alt="the screenshot of the app large screen"/>
 <img src="./waves_mobile.png" alt="the screenshot of the app large screen"/>
 
-This app has a quite amount of music to listen to fetching from a free music site. I created a .js file and made my own data, so no fetch api has been used but async and await has been used to include delay in the fetching of data. 
+This app has a quite amount of music to listen to fetching from a free music site. I created a .js file and made my own JSON data, so no fetch api has been used but async and await has been used to include delay in the fetching of data. 
 
 This app is styled using SASS and everything used here is custom css, thus no framework has been used. 
 It has all the basic functionalities of a music player like skip-backward, skip-forward, pause, play and select from the song library.
