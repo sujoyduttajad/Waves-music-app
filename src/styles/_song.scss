@@ -17,7 +17,8 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+// Mobile layout
+@media screen and (max-width: 540px) {
     .song-container {
         img {
             width: 60%;
@@ -25,7 +26,16 @@
         }
     }
 }
-
+// iPad layout
+@media (min-width: 768px) and (max-width: 1024px) {
+    .song-container {
+        img {
+            width: 54%;
+            box-shadow: 0px 5px 20px rgb(71, 71, 71);
+        }
+    }
+}
+// iPad Pro and other 13 inch screen
 @media (min-width: 1024px) and (max-width: 1366px) {
     .song-container {
         img {
