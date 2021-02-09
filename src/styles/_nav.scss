@@ -5,6 +5,7 @@ nav {
     justify-content: space-around;
     button {
         background: transparent;
+        outline: none;
         width: 10%;
         font-size: 20px;
         cursor: pointer;
@@ -12,6 +13,7 @@ nav {
         border-radius: 4px;
         padding: 0.6rem;
         transition: all 0.5s ease-in-out;
+        box-shadow: 0px 2px 5px rgb(71, 71, 71);
         &:hover {
             background: rgb(65, 65, 65);
             color: white;
