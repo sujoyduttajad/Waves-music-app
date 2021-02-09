@@ -1,0 +1,48 @@
+nav {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    button {
+        background: transparent;
+        width: 10%;
+        font-size: 20px;
+        cursor: pointer;
+        border: 2px solid rgb(65, 65, 65);
+        border-radius: 4px;
+        padding: 0.6rem;
+        transition: all 0.5s ease-in-out;
+        &:hover {
+            background: rgb(65, 65, 65);
+            color: white;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        button {
+            z-index: 10;
+            width: 30%;
+            font-size: 17px;
+
+            &:active {
+              outline: none;  
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    nav {
+        button {
+            z-index: 10;
+            width: 20%;
+            font-size: 25px;
+
+            &:active {
+              outline: none;  
+            }
+        }
+    }
+}

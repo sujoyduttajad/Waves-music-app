@@ -1,0 +1,43 @@
+@import "./song";
+@import "./player";
+@import "./library";
+@import "./nav";
+
+// To get rid off all the default margins 
+// and paddings from all the elements
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3{
+    color: rgb(54, 54, 54);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+
+h3, h4 {
+    font-weight: 400;
+    color: #495057;
+}
+
+.App {
+    height: 100vh;
+    transition: all 0.5s ease;
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+    //background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
+.library-active {
+    margin-left: 15%;
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .library-active {
+        margin-left: 38%;
+    }
+}
