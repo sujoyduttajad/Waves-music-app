@@ -59,6 +59,20 @@ nav {
             }
         }
     }
+    .header-navbar {
+
+        @include flex();
+        font-family: 'Varela Round', sans-serif;
+    
+        h1 {
+            font-size: 1.4rem;
+        }
+    
+        img {
+            width: 4rem;
+            height: 4rem;
+        }
+    }
 }
 // iPad layout
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -71,6 +85,20 @@ nav {
             &:active {
               outline: none;  
             }
+        }
+    }
+    .header-navbar {
+
+        @include flex();
+        font-family: 'Varela Round', sans-serif;
+    
+        h1 {
+            font-size: 1.7rem;
+        }
+    
+        img {
+            width: 6rem;
+            height: 6rem;
         }
     }
 }
@@ -87,4 +115,18 @@ nav {
             }
         }
     }
+    .header-navbar {
+
+    @include flex();
+    font-family: 'Varela Round', sans-serif;
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    img {
+        width: 8rem;
+        height: 8rem;
+    }
+}
 }

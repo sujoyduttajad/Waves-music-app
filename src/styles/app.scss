@@ -47,3 +47,8 @@ h3, h4 {
         margin-left: 38%;
     }
 }
+@media screen and (max-width: 540px) {
+    .library-active {
+        margin-left: 0;
+    }
+}

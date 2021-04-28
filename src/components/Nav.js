@@ -10,7 +10,7 @@ import logo from '../images/water-drop 3.svg';
         <nav>
             <div className="header-navbar">
                 <img src={logo} alt="logo" />
-                <h1>Waves Music App</h1>
+                <h1>Waves Music</h1>
             </div>
             
             <button onClick={() => setLibraryStatus(!libraryStatus)}>
