@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 nav {
     min-height: 10vh;
     display: flex;
@@ -18,6 +28,21 @@ nav {
             background: rgb(65, 65, 65);
             color: white;
         }
+    }
+}
+
+.header-navbar {
+
+    @include flex();
+    font-family: 'Varela Round', sans-serif;
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    img {
+        width: 8rem;
+        height: 8rem;
     }
 }
 
